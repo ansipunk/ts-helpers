@@ -22,7 +22,7 @@ the same KV instance is accessed by multiple workers. Good solution would be to
 remove it entirely, but it's just what I need for my personal needs. I should
 make it opt-in.
 
-Methods:
+#### Methods:
 
 - `get` - returns just the value or null if it didn't exist. Doesn't return the
   rest of the metadata;
